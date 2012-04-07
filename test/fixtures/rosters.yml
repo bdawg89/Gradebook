@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  student_id: 1
+  course_id: 1
+  final_number_grade: 1.5
+  final_grade: MyString
+  created_at: 2012-03-19 22:42:40
+  updated_at: 2012-03-19 22:42:40
+
+two:
+  student_id: 1
+  course_id: 1
+  final_number_grade: 1.5
+  final_grade: MyString
+  created_at: 2012-03-19 22:42:40
+  updated_at: 2012-03-19 22:42:40

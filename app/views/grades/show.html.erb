@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Assignment:</b>
+  <%= @grade.assignment_id %>
+</p>
+
+<p>
+  <b>Course:</b>
+  <%= @grade.course_id %>
+</p>
+
+<p>
+  <b>Grades:</b>
+  <%= @grade.grades %>
+</p>
+
+<p>
+  <b>Created at:</b>
+  <%= @grade.created_at %>
+</p>
+
+<p>
+  <b>Updated at:</b>
+  <%= @grade.updated_at %>
+</p>
+
+
+<%= link_to 'Edit', edit_grade_path(@grade) %> |
+<%= link_to 'Back', grades_path %>

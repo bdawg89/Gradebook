@@ -1,0 +1,33 @@
+<h1>Listing rosters</h1>
+
+<table>
+  <tr>
+    <th>Student</th>
+    <th>Course</th>
+    <th>Final number grade</th>
+    <th>Final grade</th>
+    <th>Created at</th>
+    <th>Updated at</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @rosters.each do |roster| %>
+  <tr>
+    <td><%= roster.student_id %></td>
+    <td><%= roster.course_id %></td>
+    <td><%= roster.final_number_grade %></td>
+    <td><%= roster.final_grade %></td>
+    <td><%= roster.created_at %></td>
+    <td><%= roster.updated_at %></td>
+    <td><%= link_to 'Show', roster %></td>
+    <td><%= link_to 'Edit', edit_roster_path(roster) %></td>
+    <td><%= link_to 'Destroy', roster, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Roster', new_roster_path %>

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  assignment_id: 1
+  course_id: 1
+  grades: 1.5
+  created_at: 2012-03-19 22:42:38
+  updated_at: 2012-03-19 22:42:38
+
+two:
+  assignment_id: 1
+  course_id: 1
+  grades: 1.5
+  created_at: 2012-03-19 22:42:38
+  updated_at: 2012-03-19 22:42:38

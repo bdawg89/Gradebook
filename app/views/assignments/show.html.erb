@@ -1,0 +1,32 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Due date:</b>
+  <%= @assignment.due_date %>
+</p>
+
+<p>
+  <b>Max points:</b>
+  <%= @assignment.max_points %>
+</p>
+
+<p>
+  <b>Assignment name:</b>
+  <%= @assignment.assignment_name %>
+</p>
+
+
+
+<p>
+  <b>Created at:</b>
+  <%= @assignment.created_at %>
+</p>
+
+<p>
+  <b>Updated at:</b>
+  <%= @assignment.updated_at %>
+</p>
+
+
+<%= link_to 'Edit', edit_assignment_path(@assignment) %> |
+<%= link_to 'Back', assignments_path %>

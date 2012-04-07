@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Student:</b>
+  <%= @roster.student_id %>
+</p>
+
+<p>
+  <b>Course:</b>
+  <%= @roster.course_id %>
+</p>
+
+<p>
+  <b>Final number grade:</b>
+  <%= @roster.final_number_grade %>
+</p>
+
+<p>
+  <b>Final grade:</b>
+  <%= @roster.final_grade %>
+</p>
+
+<p>
+  <b>Created at:</b>
+  <%= @roster.created_at %>
+</p>
+
+<p>
+  <b>Updated at:</b>
+  <%= @roster.updated_at %>
+</p>
+
+
+<%= link_to 'Edit', edit_roster_path(@roster) %> |
+<%= link_to 'Back', rosters_path %>
