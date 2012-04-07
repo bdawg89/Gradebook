@@ -1,0 +1,27 @@
+Sat, 07 Apr 2012 03:29:21 -0400
+app/models/grade.rb	Sun, 01 Apr 2012 20:43:30 -0400
+app/helpers/grades_helper.rb	Sun, 01 Apr 2012 20:43:30 -0400
+app/controllers/students_controller.rb	Sun, 01 Apr 2012 20:43:30 -0400
+app/controllers/users_controller.rb	Sun, 01 Apr 2012 20:43:30 -0400
+app/controllers/grades_controller.rb	Sun, 01 Apr 2012 20:43:30 -0400
+app/controllers/home_controller.rb	Sun, 01 Apr 2012 20:43:30 -0400
+app/models/user.rb	Sun, 01 Apr 2012 20:43:30 -0400
+app/controllers/teachers_controller.rb	Sun, 01 Apr 2012 20:43:30 -0400
+app/controllers/courses_controller.rb	Sun, 01 Apr 2012 20:43:30 -0400
+app/helpers/students_helper.rb	Sun, 01 Apr 2012 20:43:30 -0400
+app/helpers/rosters_helper.rb	Sun, 01 Apr 2012 20:43:30 -0400
+doc/README_FOR_APP	Sun, 01 Apr 2012 20:43:30 -0400
+app/helpers/home_helper.rb	Sun, 01 Apr 2012 20:43:30 -0400
+app/models/course.rb	Sun, 01 Apr 2012 20:43:30 -0400
+app/helpers/teachers_helper.rb	Sun, 01 Apr 2012 20:43:30 -0400
+app/controllers/application_controller.rb	Sun, 01 Apr 2012 20:43:30 -0400
+app/models/roster.rb	Sun, 01 Apr 2012 20:43:30 -0400
+app/models/assignment.rb	Wed, 11 Apr 2012 21:37:19 -0400
+app/helpers/users_helper.rb	Sun, 01 Apr 2012 20:43:30 -0400
+app/helpers/assignments_helper.rb	Sun, 01 Apr 2012 20:43:30 -0400
+app/controllers/rosters_controller.rb	Sun, 01 Apr 2012 20:43:30 -0400
+app/models/teacher.rb	Sun, 01 Apr 2012 20:43:30 -0400
+app/helpers/application_helper.rb	Sun, 01 Apr 2012 20:43:30 -0400
+app/models/student.rb	Sun, 01 Apr 2012 20:43:30 -0400
+app/helpers/courses_helper.rb	Sun, 01 Apr 2012 20:43:30 -0400
+app/controllers/assignments_controller.rb	Sun, 01 Apr 2012 20:43:30 -0400
