@@ -1,6 +1,8 @@
 Gradebook::Application.routes.draw do
   
 
+  devise_for :users
+
   get "users/new"
 
   resources :teachers
