@@ -1,4 +1,5 @@
 class TeachersController < ApplicationController
+  before_filter :authenticate_user!, :except => [:some_action_without_auth]
   # GET /teachers
   # GET /teachers.json
   def index

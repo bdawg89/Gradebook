@@ -63,8 +63,8 @@ Tabulous.setup do |config|
       [    :students_tab       ,    'Students'       ,    students_path       ,    true        ,    true        ],
       [    :courses_tab        ,    'Courses'        ,    courses_path        ,    true        ,    true        ],
       [    :assignments_tab    ,    'Assignments'    ,    assignments_path    ,    true        ,    true        ],
-      [    :home_tab           ,    'Home'           ,    home_index_path     ,    true        ,    true        ],
-      [    :home_tab           ,    'Home'           ,    root_path           ,    true        ,    true        ],
+      [    :home_tab           ,    'Home'           ,    home_index_path     ,    false        ,    true        ],
+      [    :home_tab           ,    'Home'           ,    root_path           ,    false        ,    true        ],
       #---------------------------------------------------------------------------------------------------------#
       #    TAB NAME            |    DISPLAY TEXT     |    PATH                |    VISIBLE?    |    ENABLED?    #
       #---------------------------------------------------------------------------------------------------------#

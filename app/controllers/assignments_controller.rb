@@ -1,4 +1,5 @@
 class AssignmentsController < ApplicationController
+ before_filter :authenticate_user!, :except => [:some_action_without_auth]
   # GET /assignments
   # GET /assignments.json
   def index
