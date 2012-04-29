@@ -5,6 +5,12 @@
 		<%= stylesheet_link_tag    "application", :media => "all" %>
 		<%= javascript_include_tag "application" %>
 		<%= csrf_meta_tags %>
+		<p class="notice">
+			<%= notice %>
+		</p>
+		<p class="alert">
+			<%= alert %>
+		</p>
 		
 	</head>
 	<body style="background:yellow;">
@@ -18,12 +24,7 @@
 			<% end %>
 		</div>
 		<div align="center">
-		
-			<table>
-				<tr>
-					<td><h1>Gradebook</h1></td>
-				</tr>
-			</table>
+			<h1>Gradebook</h1>
 		</div>
 		<%= yield %>
 	</body>

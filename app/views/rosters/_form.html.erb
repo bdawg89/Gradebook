@@ -13,11 +13,12 @@
 
   <div class="field">
     <%= f.label :student_id %><br />
-    <%= f.number_field :student_id %>
+    <%= f.collection_select :student_id, Student.find(:all), :id, :full_name %>
+   
   </div>
   <div class="field">
     <%= f.label :course_id %><br />
-    <%= f.number_field :course_id %>
+    <%= f.collection_select :course_id, Course.find(:all), :id, :name, :prompt => "Select a Course"%>
   </div>
   <div class="field">
     <%= f.label :final_number_grade %><br />
@@ -27,14 +28,7 @@
     <%= f.label :final_grade %><br />
     <%= f.text_field :final_grade %>
   </div>
-  <div class="field">
-    <%= f.label :created_at %><br />
-    <%= f.datetime_select :created_at %>
-  </div>
-  <div class="field">
-    <%= f.label :updated_at %><br />
-    <%= f.datetime_select :updated_at %>
-  </div>
+  
   <div class="actions">
     <%= f.submit %>
   </div>

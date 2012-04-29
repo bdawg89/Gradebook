@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120414133252) do
+ActiveRecord::Schema.define(:version => 20120429065133) do
 
   create_table "assignments", :force => true do |t|
     t.date     "due_date"
@@ -32,7 +32,8 @@ ActiveRecord::Schema.define(:version => 20120414133252) do
   create_table "grades", :force => true do |t|
     t.integer  "assignment_id"
     t.integer  "course_id"
-    t.float    "grades"
+    t.integer  "student_id"
+    t.float    "grade"
     t.datetime "created_at",    :null => false
     t.datetime "updated_at",    :null => false
   end

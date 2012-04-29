@@ -13,23 +13,18 @@
 
   <div class="field">
     <%= f.label :assignment_id %><br />
-    <%= f.number_field :assignment_id %>
+    <%= f.collection_select :assignment_id, Assignment.find(:all), :id, :assignment_name %>
   </div>
   <div class="field">
     <%= f.label :course_id %><br />
-    <%= f.number_field :course_id %>
+    <%= f.collection_select :course_id, Course.find(:all), :id, :name%>
+  <div class="field">
+    <%= f.label :student_id %><br />
+    <%= f.collection_select :student_id, Student.find(:all), :id, :full_name %>
   </div>
   <div class="field">
-    <%= f.label :grades %><br />
-    <%= f.text_field :grades %>
-  </div>
-  <div class="field">
-    <%= f.label :created_at %><br />
-    <%= f.datetime_select :created_at %>
-  </div>
-  <div class="field">
-    <%= f.label :updated_at %><br />
-    <%= f.datetime_select :updated_at %>
+    <%= f.label :grade %><br />
+    <%= f.text_field :grade %>
   </div>
   <div class="actions">
     <%= f.submit %>

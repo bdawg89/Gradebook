@@ -3,13 +3,11 @@
 one:
   assignment_id: 1
   course_id: 1
-  grades: 1.5
-  created_at: 2012-03-19 22:42:38
-  updated_at: 2012-03-19 22:42:38
+  student_id: 1
+  grade: 1.5
 
 two:
   assignment_id: 1
   course_id: 1
-  grades: 1.5
-  created_at: 2012-03-19 22:42:38
-  updated_at: 2012-03-19 22:42:38
+  student_id: 1
+  grade: 1.5
