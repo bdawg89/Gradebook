@@ -13,7 +13,8 @@
 		</p>
 		
 	</head>
-	<body style="background:yellow;">
+	<body style="background:blue;">
+		<h1 align="center">Gradebook</h1>
 		<div id="user_nav">
 			<% if user_signed_in? %>
 			Signed in as <%= current_user.email %>. Not you?
@@ -22,9 +23,6 @@
 			<% else %>
 			<%= link_to "Sign up", new_user_registration_path %> or <%= link_to "sign in", new_user_session_path %>
 			<% end %>
-		</div>
-		<div align="center">
-			<h1>Gradebook</h1>
 		</div>
 		<%= yield %>
 	</body>

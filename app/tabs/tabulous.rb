@@ -170,7 +170,7 @@ Tabulous.setup do |config|
 
   # You can tweak the colors of the generated CSS.
   #
-  config.css.background_color = 'yellow'
+  config.css.background_color = 'blue'
    config.css.text_color = 'white'
   config.css.active_tab_color ='blue'
   config.css.hover_tab_color = 'blue'

@@ -11,3 +11,21 @@
  *= require_self
  *= require_tree .
 */
+body{
+	color:white;
+}
+
+background-image: linear-gradient(bottom, rgb(0,0,0) 100%, rgb(0,15,181) 64%, rgb(18,163,163) 82%);
+background-image: -o-linear-gradient(bottom, rgb(0,0,0) 100%, rgb(0,15,181) 64%, rgb(18,163,163) 82%);
+background-image: -moz-linear-gradient(bottom, rgb(0,0,0) 100%, rgb(0,15,181) 64%, rgb(18,163,163) 82%);
+background-image: -webkit-linear-gradient(bottom, rgb(0,0,0) 100%, rgb(0,15,181) 64%, rgb(18,163,163) 82%);
+background-image: -ms-linear-gradient(bottom, rgb(0,0,0) 100%, rgb(0,15,181) 64%, rgb(18,163,163) 82%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(1, rgb(0,0,0)),
+	color-stop(0.64, rgb(0,15,181)),
+	color-stop(0.82, rgb(18,163,163))
+);

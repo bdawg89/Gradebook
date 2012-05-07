@@ -6,8 +6,6 @@
     <th>Course number</th>
     <th>Grade scale</th>
     <th>Teacher</th>
-    <th>Created at</th>
-    <th>Updated at</th>
     <th></th>
     <th></th>
     <th></th>
@@ -19,8 +17,6 @@
     <td><%= course.course_number %></td>
     <td><%= course.grade_scale_id %></td>
     <td><%= course.teacher_id %></td>
-    <td><%= course.created_at %></td>
-    <td><%= course.updated_at %></td>
     <td><%= link_to 'Show', course %></td>
     <td><%= link_to 'Edit', edit_course_path(course) %></td>
     <td><%= link_to 'Destroy', course, :confirm => 'Are you sure?', :method => :delete %></td>
